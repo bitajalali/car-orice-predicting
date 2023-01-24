@@ -14,7 +14,7 @@ session.proxies = {
 
 
 
-cnx=mysql.connector.connect(user='bita',password='pishraft123',host='127.0.0.1')
+cnx=mysql.connector.connect(user='bita',password='******',host='127.0.0.1')
 mycursor=cnx.cursor(buffered=True)
 carname=input('insert model: ')
 
